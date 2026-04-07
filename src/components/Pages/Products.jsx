@@ -1,8 +1,8 @@
 import React from 'react'
 import image1 from '../../assets/Women/women1.png'
-import image2 from '../../assets/Women/women2.jpg'
-import image3 from '../../assets/Women/women3.jpg'
-import image4 from '../../assets/Women/women4.jpg'
+import image2 from '../../assets/Women/women2.png'
+import image3 from '../../assets/Women/women3.png'
+import image4 from '../../assets/Women/women4.png'
 import { Star } from 'lucide-react'
 
 const ProductsData = [

@@ -1,4 +1,9 @@
 import React from 'react'
+import images1 from '../../assets/shirt/shirt.png'
+import images2 from '../../assets/shirt/shirt2.png'
+import images3 from '../../assets/shirt/shirt3.png'
+
+
 const ProductsData = [
     {
         id: 1,
@@ -18,13 +23,7 @@ const ProductsData = [
         title: "Women shirt",
         description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consectetur neque itaque. Nesciunt nemo quisquam eius quia voluptate quaerat ducimus ipsam harum beatae, possimus, hic in? Unde suscipit inventore aliquid?",
 
-    },{
-        id: 4,
-        img: images4,
-        title: "Casual Wear",
-        description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consectetur neque itaque. Nesciunt nemo quisquam eius quia voluptate quaerat ducimus ipsam harum beatae, possimus, hic in? Unde suscipit inventore aliquid?",
-
-    },
+    }
 ]
 function TopProducts() {
   return (

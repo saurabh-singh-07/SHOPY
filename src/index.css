@@ -1,0 +1,12 @@
+
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-primary: #fea928;
+    --color-secondary: #ed8900;
+
+} 
+.btn-style{
+    @apply bg-linear-to-r from-primary to-secondary transition-all duration-200 text-white py-1 px-4 rounded-full flex items-center
+}

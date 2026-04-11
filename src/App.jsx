@@ -5,11 +5,11 @@ import Navbar from './components/Layout/Navbar'
 import Products from './components/Pages/Products'
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import TopProducts from './components/Pages/TopProducts';
+import Banner from './components/Pages/Banner';
 
 function App() {
-
   useEffect(()=>{
     AOS.init({
       offset : 100,
@@ -25,6 +25,8 @@ function App() {
     <Hero/>
     <Products/>
     <TopProducts/>
+    <Banner/>
+  
     </main>
   )
 }

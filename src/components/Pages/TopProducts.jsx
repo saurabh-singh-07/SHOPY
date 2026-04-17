@@ -28,7 +28,7 @@ const ProductsData = [
 ]
 function TopProducts() {
   return (
-    <div>
+    <div className='flex justify-center'>
       <div className='container'>
         {/* header section */}
         <div className='text-left mb-25 '>
@@ -70,7 +70,7 @@ function TopProducts() {
                                 <Star className='text-yellow-500'/>
                                 <Star className='text-yellow-500'/>
                             </div>
-                            <h1 className='text-xl font-bold'>{data.title}</h1>
+                            <h1 className='text-xl dark:text-white font-bold'>{data.title}</h1>
                             <p className='text-xs text-gray-500 group-hover:text-white/80 duration-300 line-clamp-2'>{data.description}</p>
                             <button 
                             // onClick={handleOrderPopup}

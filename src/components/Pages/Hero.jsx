@@ -43,7 +43,7 @@ function Hero() {
         {/* background pattern */}
         <div className='h-175 w-175 bg-primary/40 absolute -top-1/2 right-0 rounded-3xl rotate-45 z-0'></div>
         {/* hero section */}
-        <div className='container pl-23 pb-8 sm:pb-0 '>
+        <div className='container px-5 pb-8 sm:pb-0 '>
             <Slider.default {...settings}>
                 {ImageList.map((data)=>( 
                                 

@@ -28,8 +28,8 @@ const bannerItems = [
 ]
 function Banner() {
   return (
-    <div className='min-w-137.5 flex justify-center items-center m-10 py-12 sm:py-0'>
-      <div className='container mx-10'>
+    <div className='md:min-w-137.5 flex justify-center items-center m-10 py-12 sm:py-0'>
+      <div className='container'>
 
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 items-center'>
             <div dar-aos="zoom-in">

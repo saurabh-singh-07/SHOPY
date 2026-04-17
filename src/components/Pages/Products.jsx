@@ -46,8 +46,8 @@ const ProductsData = [
 function Products() {
 
   return (
-    <div className='mt-14 mb-12'>
-      <div className='container'>
+    <div className='pt-20 mb-12'>
+      <div className='flex flex-col justify-center '>
         {/* Header section */}
         <div className='text-center mb-10 max-w-150 mx-auto'>
             <p 
@@ -73,7 +73,7 @@ function Products() {
                         <img 
                         src={data.img} 
                         alt=''
-                        className='h-55 w-37.5 object-cover rounded-md '/>
+                        className='h-55 w-50 sm:w-37.5 object-cover rounded-md '/>
                             <div>
                                 <h3 
                                 className='font-semibold'>
@@ -94,6 +94,9 @@ function Products() {
                         </div>
                     </div>
                 ))}
+            </div>
+            <div className='flex justify-center'>
+                <button className='text-center mt-10 cursor-pointer bg-primary text-white py-1 px-1 rounded-md  '>View All Button</button>
             </div>
         </div>
         

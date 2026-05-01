@@ -31,7 +31,7 @@ function App() {
       <Banner/>
       <Subcribe/>
       <Products/>
-      {/* <Testimonials/> */}
+       <Testimonials/> 
     </main>
     </>
   )
